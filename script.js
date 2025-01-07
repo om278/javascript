@@ -551,7 +551,7 @@ a.addEventListener("mousemove" ,function(e){
 // Write a  program to find HCF (GCD) of two numbers.
 
 
-function hcf(num1,num2) {
+// function hcf(num1,num2) {
 //    while (num2!==0) {
 //       let tem =num2
 //       num2=num1%num2
@@ -559,29 +559,29 @@ function hcf(num1,num2) {
 //    }
 //    return num1
 
-while (num1!=num2) {
-        if (num1>num2) {
-                num1-=num2
-        }
-        else if(num2>num1){
-                num2-=num1
-        }
-}
-return num1;
-}
+// while (num1!=num2) {
+//         if (num1>num2) {
+//                 num1-=num2
+//         }
+//         else if(num2>num1){
+//                 num2-=num1
+//         }
+// }
+// return num1;
+// }
 
-console.log(hcf(36,60))
+// console.log(hcf(36,60))
 
 // Write a  program to find LCM of two numbers.
-function lcm(num1,num2) {
-   return num1*num2/hcf(num1,num2)
-}
-console.log(lcm(36,60))
+// function lcm(num1,num2) {
+//    return num1*num2/hcf(num1,num2)
+// }
+// console.log(lcm(36,60))
 
 
 // Write a  program to check whether a number is Prime number or not.
 
-// function prime(num) {
+function prime(num) {
    
 // if (num<=1) {
 //    let v= "the numbers 0,1,and negative numbers are not prime number"
@@ -597,7 +597,17 @@ console.log(lcm(36,60))
 //    return c
 // }
 
-// }
+for (let i = 2; i <num; i++) {
+        if (num%i!==0) {
+                return "the num is prime number:"
+        }else{
+                return "he num is not prime number"
+        }
+}
+
+}
+console.log(prime(8))
+
 
 // Write a  program to print all Prime numbers between 1 to n.
 // function prnum(num) {

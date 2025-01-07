@@ -573,10 +573,10 @@ return num1;
 console.log(hcf(36,60))
 
 // Write a  program to find LCM of two numbers.
-// function lcm(num1,num2) {
-//    return num1*num2/hcf(num1,num2)
-// }
-// console.log(lcm(36,60))
+function lcm(num1,num2) {
+   return num1*num2/hcf(num1,num2)
+}
+console.log(lcm(36,60))
 
 
 // Write a  program to check whether a number is Prime number or not.

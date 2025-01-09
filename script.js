@@ -581,7 +581,7 @@ a.addEventListener("mousemove" ,function(e){
 
 // Write a  program to check whether a number is Prime number or not.
 
-function prime(num) {
+// function prime(num) {
    
 // if (num<=1) {
 //    let v= "the numbers 0,1,and negative numbers are not prime number"
@@ -597,16 +597,17 @@ function prime(num) {
 //    return c
 // }
 
-for (let i = 2; i <num; i++) {
-        if (num%i!==0) {
-                return "the num is prime number:"
-        }else{
-                return "he num is not prime number"
-        }
-}
+// for (let i = 2; i <num; i++) {
+//         if (num%i!==0) {
+//                 return "the num is prime number:"
+//         }else{
+//                 return "he num is not prime number"
+//         }
+// }
 
-}
-console.log(prime(8))
+// }
+// console.log(prime(8))
+//************************************************************************************* */
 
 
 // Write a  program to print all Prime numbers between 1 to n.
@@ -629,6 +630,8 @@ console.log(prime(8))
 //       console.log(i)
 //       }
 // }
+//************************************************************************************* */
+
 
 // Write a  program to find sum of all prime numbers between 1 to n.
 // function prnum(num) {
@@ -654,6 +657,8 @@ console.log(prime(8))
 //    }
    
 //    console.log(sum) 
+
+//************************************************************************************* */
 
 
 
@@ -700,6 +705,7 @@ console.log(prime(8))
 // console.log("xyz-->",xyz)
 
 
+//************************************************************************************* */
 
 
 // Write a simple JavaScript program to join all elements of the following array into a string.
@@ -723,6 +729,7 @@ console.log(prime(8))
 
 
 
+//************************************************************************************* */
 
 
 //  Write a JavaScript program that accepts a number as input and inserts dashes (-) between each even number. 
@@ -744,6 +751,7 @@ console.log(prime(8))
 // }
 // console.log(result.join(''))
 
+//************************************************************************************* */
 
 // 12. Write a JavaScript program to compute the sum and product of an array of integers.
         // let arr=[4,3,4,3,2,4]
@@ -756,6 +764,7 @@ console.log(prime(8))
         //     }
         
         // console.log("sum-->"+sum+" "+"product-->"+product )
+//************************************************************************************* */
 
 // 13. Write a JavaScript program to add items to a blank array and display them.
 // let items=[]
@@ -777,6 +786,7 @@ console.log(prime(8))
 // add(4)
 // add(8)
 // display()
+//************************************************************************************* */
 
 
 // 14. Write a JavaScript program to remove duplicate items from an array (ignore case sensitivity).
@@ -792,6 +802,7 @@ console.log(prime(8))
 //     }
 // }
 // console.log(add)
+//************************************************************************************* */
 
 
 // The cumulative sum of an array at index i is defined as the sum of all elements of the array from index 0 to index i.
@@ -819,6 +830,7 @@ console.log(prime(8))
 // }
 
 // console.log(ans)
+//************************************************************************************* */
 
 
 // Given an array and a number k, remove all occurrences of k from the array (in-place). Return the number of elements 'remainingSize' left after removing k. 
@@ -844,6 +856,7 @@ console.log(prime(8))
 // }
 // console.log(ans)
 // console.log(ans.length)
+//************************************************************************************* */
 
 
 // let nums = [2,7,11,15]
@@ -857,6 +870,7 @@ console.log(prime(8))
 //     }
 // console.log(output)
 
+//************************************************************************************* */
 
 //  let nums = [0,0,1,1,1,2,2,3,3,4]
 //  let returns=[]
@@ -873,6 +887,7 @@ console.log(prime(8))
 // removeDuplicates(nums)
 // console.log(returns)   
 
+//************************************************************************************* */
 
 // Write a simple JavaScript program to join all elements of the following array into a string.
 // Sample array : myColor = ["Red", "Green", "White", "Black"];
@@ -902,6 +917,7 @@ console.log(prime(8))
 //   console.log(ans)
 
 
+//************************************************************************************* */
 
 
 //   let abc=4
@@ -911,3 +927,264 @@ console.log(prime(8))
 
 
 //   console.log(kk)
+
+
+
+
+//*****************************************LEETCODE***************************************** */
+
+// let words = ["axicc","waxiccgq","ssvob","gissvobox","zfzcj","gtzfzcjyk","cpjj","mnwaxiccgqd","dvfoc","rszfzcjim","hxz","vmssvob"]
+// let sub=[]
+// let sub1=[]
+// for (let i = 0; i < words.length; i++) {
+//         for (let j = 0; j < words.length; j++) {
+//                 if (i!==j && words[i].includes(words[j])) {
+//                 sub.push(words[j])  
+//                       }                
+//         }
+// }
+// for (let k = 0; k < sub.length; k++) {
+//         for (let l = 0; l < k; l++) {
+               
+//         if (sub[k]==sub[l]) {
+//                 sub1.push(sub[l])
+//         }   
+//         }      
+// }
+
+// console.log(sub1)
+//****************************************************************************************** */
+// factors of number
+
+// function factor(num) {
+//         let z=2
+//         let arr=[]
+//         while (num!==1) {
+//                 if (num%z==0) {
+//                         arr.push(z)
+//                         num=num/z
+//                 } else {
+//                         z++
+//                 }
+//         }
+//         return arr 
+// }
+// console.log(factor(56))
+//************************************************************************************* */
+
+//prime number or not
+
+// function prime(num) {
+// for(let i=2;i<num;i++)
+// {
+//      if(num%i==0)
+//      {
+//         return false
+//      }
+//      else{
+//       return true
+//    }
+// }
+// let sum=0
+//    for (let i = 1; i <=100; i++) {
+//       if (prime(i)) {
+         
+//          sum+=i
+//          }
+//    }
+//    console.log(sum)
+// }
+//************************************************************************************* */
+
+// write a  program to print all Prime numbers between 1 to n.
+
+
+// for (let i = 2; i < 100; i++) {
+        
+// prime(i)
+    
+// }
+
+
+
+//************************************************************************************* */
+// Write a  program to find sum of all prime numbers between 1 to n.
+// let sum=0
+//    for (let i = 1; i <=100; i++) {
+//       if (prime(i)) {
+         
+//          sum+=i
+//          }
+//    }
+//    console.log(sum)
+
+//************************************************************************************* */
+
+
+
+// function perfect(num) {
+   
+// let arr=[]
+// for (let i = 1; i <=Math.floor(num/2); i++) {
+//          if (num%i==0) {
+//             arr.push(i)
+//          }   
+// }
+// let sum=0
+// for (let i = 0; i < arr.length; i++) {
+//    sum+=arr[i]
+// }
+
+// if (num==sum){
+//    return sum
+// }
+// }
+// // console.log(perfect(9))
+// for (let i = 1; i <=100; i++) {
+//    if(perfect(i)==undefined){
+//       continue
+//    }else{
+//      console.log(perfect(i))    
+
+//    }
+
+
+// }
+//************************************************************************************* */
+
+// Write a  program to check whether a number is Armstrong number or not.
+
+
+// num=1694
+
+
+// function countDig(num){
+
+//     let count=0;
+//     while(num>0){
+//         count++
+//         num=Math.floor(num/10)
+
+//     }
+//      return count
+
+// }
+
+// function findSum(num){
+
+//     let sum=0
+//     let pow=countDig(num)
+//     while(num>0){
+      
+//         ld=num%10
+//         sum=sum + ld**pow
+//         num=Math.floor(num/10)
+         
+//     }
+    
+// return sum
+
+
+// }
+
+// if(num==findSum(num)){
+//     console.log("number is armstring")
+// }else{
+//     console.log("number iusn not arn=mstrong")
+// }
+
+
+//************************************************************************************* */
+// Write a  program to check whether a number is Strong number or not.
+
+
+// function facto(num1) {
+//         let num=num1
+//         arr=[]
+       
+//        while (num>0) {
+        
+//        ld=num%10
+//        let fac=1
+//        for (let i = 1; i <=ld; i++) {
+//                 fac*=i
+        
+//        }
+//         arr.push(fac)
+
+//         num=Math.floor(num/10)
+//        }
+// //        console.log(arr)
+//        let sum=0
+//        for (let i = 0; i < arr.length; i++) {
+//         sum+=arr[i]
+        
+//        }
+// //        console.log(sum)
+
+// if (num1==sum) {
+//         console.log("its a strong number")
+// }
+// else{
+//         console.log("its not a strong number")
+// }
+
+// }
+// console.log(facto(145))
+
+//************************************************************************************* */
+
+// Write a  program to print all Strong numbers between 1 to n.
+
+
+
+// function facto(num1) {
+//         let num=num1
+//         arr=[]
+       
+//        while (num>0) {
+        
+//        ld=num%10
+//        let fac=1
+//        for (let i = 1; i <=ld; i++) {
+//                 fac*=i
+        
+//        }
+//         arr.push(fac)
+
+//         num=Math.floor(num/10)
+//        }
+// //        console.log(arr)
+//        let sum=0
+//        for (let i = 0; i < arr.length; i++) {
+//         sum+=arr[i]
+        
+//        }
+// //        console.log(sum)
+
+// if (num1==sum) {
+//         console.log(sum)
+// }
+
+// }
+
+// for (let i = 1; i <=200; i++) {
+//         facto(i)
+        
+// }
+
+//************************************************************************************* */
+// Write a  program to print Fibonacci series up to n terms.
+// function fibonacci(n) {
+        
+// arr=[1,1]
+// let i=0
+// while(i<n){
+// arr.push(arr[i+1]+arr[i])
+// i++
+// }
+// return arr
+// }
+
+// console.log(fibonacci(9))
+//************************************************************************************* */

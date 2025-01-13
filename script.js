@@ -1188,3 +1188,62 @@ a.addEventListener("mousemove" ,function(e){
 
 // console.log(fibonacci(9))
 //************************************************************************************* */
+
+
+// function calfact(num) {
+//         let fact=1
+//         for (let i = 1; i <=num; i++) {
+//                 fact*=i
+//         }
+//         return fact
+// }
+// function SumAndAdd(number) {
+//         let sum=0
+//         while (number>0) {
+//                 let ld=number%10
+//         sum+=calfact(ld)
+//         number=Math.floor(number/10)
+//         }
+//         return sum
+// }
+// function isStrong(num) {
+//         if (num==SumAndAdd(num)) {
+//                 console.log(num, " is strong number")
+//         }
+//         // else{
+//         //         console.log(num," is not a strong number")
+//         // }
+// }
+// //*******For 1 to n***** */
+// let n=200
+// for (let i = 1; i <n; i++) {
+//         isStrong(i)
+// }
+
+//************************************************************************************* */
+// Write a  program to print Fibonacci series up to n terms.
+
+
+// function Fabio(n) {
+        
+// let ab=0
+// let ba=1
+// let str =`${ab} ${ba}`;
+// let cb  
+// while(n-2>=1) {
+//         cb=ab+ba
+//         ab=ba
+//         ba=cb
+//         str=str+" "+cb
+// }
+// return str
+// }
+// console.log(Fabio(10));
+
+
+
+// *
+// * *
+// * * *
+// * * * *
+// * * * * * 

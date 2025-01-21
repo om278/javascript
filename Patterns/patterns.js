@@ -164,4 +164,4 @@ function name(n) {
                 console.log(str);
             }
         }
-        trig(10)
+

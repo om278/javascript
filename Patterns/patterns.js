@@ -165,3 +165,99 @@ function name(n) {
             }
         }
 
+
+
+//  * * * * * 
+//  *       *
+//  *       *
+//  *       *
+//  * * * * *  
+let n=5
+for (let i = 1; i <=n; i++) {
+    str=""
+    if(i==1 || i==n)    {
+        for (let j = 1; j <=n; j++) {
+            str+="* "
+        }
+    }else{
+        for (let j = 1; j <=n; j++){
+            if(j==1|| j==n ){
+                str+="* "
+            }else{
+                str+="  "
+            }
+        }
+    }
+}
+
+
+
+for (let i = 1; i <=n; i++) {
+    str=""
+    for (let j = 1; j <=i; j++) {
+        if(j==1 || j==i ||i==n){
+            str+="* "
+        }
+        else{
+            str+="  "
+        }
+        
+    }   
+}
+
+for (let i = 1; i <=n; i++) {
+    str=""
+    for(let j=1; j<=n-i; j++){
+        str+=" "
+    }
+    for (let k = 1; k <=n; k++) {
+        if (k==1 || k==i || i==n) {
+            str+=" *"
+        }
+        else{
+            str+="  " 
+        }
+        
+    }
+    
+}
+
+// # 2  # 4  # 
+// # 6  # 8  # 
+// # 10 # 12 # 
+// # 14 # 16 # 
+// # 18 # 20 # 
+function CountPattern(n) {
+    count=2
+    
+    for(let i=1; i<=n; i++){
+        str=""
+        for(let j=1; j<=n; j++){
+            if (j%2==0) {
+                str+=count+" "
+                count+=2
+            }
+            else{
+                str+="# "
+            }
+        }
+        console.log(str);
+    }
+    
+}
+
+str="oM"
+
+let result1=""
+for(let i=0; i<str.length;i++){
+    let result=str[i].split()
+    for (let j = 0; j < array.length; j++) {
+        const element = array[j];
+        
+    }
+    if (result==isUpperCase()) {
+        result1+=result.toLowerCase()
+    }
+}
+console.log(result);
+console.log("om");

@@ -1,6 +1,6 @@
 arr=[9,8,2,1,5]
 function Sort(arr) {
-    let x
+    let x;
     for ( x=0; x < arr.length; x++) {
         for (let i = 0; i < arr.length-x; i++) {
             if(arr[i]>arr[i+1]){

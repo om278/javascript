@@ -245,19 +245,3 @@ function CountPattern(n) {
     }
     
 }
-
-str="oM"
-
-let result1=""
-for(let i=0; i<str.length;i++){
-    let result=str[i].split()
-    for (let j = 0; j < array.length; j++) {
-        const element = array[j];
-        
-    }
-    if (result==isUpperCase()) {
-        result1+=result.toLowerCase()
-    }
-}
-console.log(result);
-console.log("om");

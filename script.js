@@ -563,7 +563,7 @@ a.addEventListener("mousemove" ,function(e){
 //         if (num1>num2) {
 //                 num1-=num2
 //         }
-//         else if(num2>num1){
+//         else {
 //                 num2-=num1
 //         }
 // }
@@ -745,7 +745,7 @@ a.addEventListener("mousemove" ,function(e){
 
 // for (let i = 0; i <result.length-1; i++) {
 //     if (result[i]%2==0 && (result[i+1])%2==0) {
-//     result.splice(i+1,0,'-')   //index, delete item, insert item1,....insert item n;
+//     result.splice(i+1,0,'-')   //start, delete item, insert item1,....insert item n;
 //         i++
 //  }    
 // }

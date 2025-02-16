@@ -1,0 +1,103 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    height: 100px;
+    /* border: 2px solid red; */
+    padding: 0px 10%;
+    box-shadow: 1px 4px 15px rgba(244, 222, 222, 0.232);
+}
+nav #top{
+    height: 50%;
+    /* border: 2px solid salmon; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#top #logo{
+    height: 80%;
+    width: 110px;
+    /* border: 2px solid blue; */
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+}
+#input{
+    width: 45%;
+    height: 80%;
+    border: 1px solid #446278;
+    border-radius: 5px;
+    margin: 0px 12px;
+
+}
+#input input{
+    height: 90%;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+#input i{
+    font-size: 15px;
+    color: greenyellow;
+    margin: 0px 9px;
+
+}
+
+#button-one button{
+    padding: 10px 20px;
+    background-color: #90a7b6;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#button-two button{
+    padding: 10px 3px;
+    background-color: #111;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+#top #icon{
+    height: 80%;
+    width: 40px;
+    /* border: 2px solid red; */
+    display: flex;
+    border-radius:5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 207, 213);
+}
+#top #icon i{
+    height: 90%;
+    width: 90%;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} #bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav #bottom button{
+    padding: 12px 20px;
+    font-size: 14px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+}
+
+#bottom a{
+    color: #111;
+    text-decoration: none;
+    font-size: 19px;
+}

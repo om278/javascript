@@ -13,4 +13,4 @@ function Sort(arr) {
     }
     return arr
 }
-console.log(Sort(arr));
+console.log(Sort(arr)); 

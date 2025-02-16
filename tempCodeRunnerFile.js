@@ -1,12 +1,15 @@
-let newarr=["apple","APPLE","new","Omkant","omkant"]
 
-let arr=[]
-let add=[]
-
-for (let i = 0; i < newarr.length; i++) {
-    arr[i]=newarr[i].toLocaleLowerCase()
-    if (newarr[i]===arr[i]) {
-        add.push(arr[i]+" ")
-    }
+function factor(num) {
+        let z=2
+        let arr=[]
+        while (num!==1) {
+                if (num%z==0) {
+                        arr.push(z)
+                        num=num/z
+                } else {
+                        z++
+                }
+        }
+        return arr 
 }
-console.log(add)
+console.log(factor(56))

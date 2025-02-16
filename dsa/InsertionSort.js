@@ -1,4 +1,4 @@
-arr=[4,54,98,3,5,8,]
+arr=[4,2,1,3]
 function InsertionSort(arr) {
     for (let i = 0; i < arr.length; i++) {
         let current=arr[i]
@@ -12,3 +12,4 @@ function InsertionSort(arr) {
     }
     return arr
 }
+console.log(InsertionSort(arr));

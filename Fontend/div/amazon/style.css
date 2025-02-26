@@ -1,13 +1,16 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-body, html{
+
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-nav{
+
+nav {
     height: 59px;
     /* border: 2px solid red; */
     display: flex;
@@ -18,39 +21,57 @@ nav{
     color: white;
     padding: 0px;
 }
-nav div{
+
+nav div {
     height: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
 }
-#logo{
+
+#logo {
     width: 100px;
     height: 90%;
     margin-left: 15px;
+
     /* border: 2px solid rgb(207, 46, 46); */
+    &:hover {
+        padding: 0px 8px;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
 }
-#logo img{
+
+#logo img {
     height: 100%;
     width: 100%;
 }
-nav #location{
-    width: 200px;
+
+nav #location {
+    width: 180px;
     height: 90%;
     /* border: 2px solid rgb(207, 46, 46); */
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-left: 5px;
+    margin: 0px 14px;
+
+    &:hover {
+        padding: 0px 8px;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
 }
-#location #left{
-    width:  10%;
+
+#location #left {
+    width: 10%;
     height: 100%;
     font-size: 20px;
     /* border: 2px solid rgb(207, 46, 46); */
-    
+
 }
-#location #left i{
+
+#location #left i {
     height: 100%;
     width: 100%;
     background-color: #111;
@@ -59,70 +80,81 @@ nav #location{
     justify-content: center;
     align-items: center;
 }
-#location #right{
+
+#location #right {
     width: 90%;
     height: 100%;
     background-color: #111;
     /* border: 2px solid rgb(207, 46, 46); */
     display: block;
 }
-#location #right #top{
+
+#location #right #top {
     /* border: 2px solid rgb(207, 46, 46); */
     width: 100%;
     height: 45%;
 
 }
-#location #right #top h1{
+
+#location #right #top h1 {
     font-size: 12px;
     font-weight: 300;
     color: #f7f7f7;
     margin-bottom: 0px;
 }
-#location #right #bottom{
+
+#location #right #bottom {
     /* border: 2px solid rgb(207, 46, 46); */
     width: 100%;
     height: 45%;
 
 }
-#location #right #bottom h1{
+
+#location #right #bottom h1 {
     font-size: 14px;
     font-weight: 600;
     color: #f7f7f7;
 
 }
-#sbar{
+
+#sbar {
     height: 70%;
     width: 50%;
     /* border: 2px solid salmon; */
     border-radius: 5px;
     background-color: #fbbe6b;
-    
+
 }
-#sbar select{
+
+#sbar select {
     height: 100%;
     width: 8%;
     color: #446278;
     padding: 10px;
     border-radius: 5px;
-    font-size:11px;
+    font-size: 11px;
     background-color: #D4D4D4;
     border: none;
     text-align: center;
 }
-#sbar select:focus{
+
+#sbar select:focus {
     outline: none;
 }
-#sbar input{
+
+#sbar input {
     padding-left: 5px;
     height: 94%;
     width: 85%;
     border: none;
     font-size: 15px;
 }
-#sbar input:focus{
+
+#sbar input:focus {
     outline: none;
 }
-#sbar i{
+
+#sbar i {
     font-size: 20px;
     height: 80%;
     width: 45px;
@@ -132,7 +164,8 @@ nav #location{
     align-items: center;
     /* border: 2px solid rebeccapurple; */
 }
-nav #last{
+
+nav #last {
     height: 90%;
     width: 30%;
     display: flex;
@@ -141,76 +174,112 @@ nav #last{
     padding: 0px 10px;
     /* border: 2px solid sandybrown; */
 }
-nav #last #lang{
+
+nav #last #lang {
     height: 40%;
     width: 60px;
+
+    &:hover {
+        padding: 11px 8px;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
 }
-nav #last #lang #left{
+
+nav #last #lang #left {
     height: 80%;
     width: 50%;
     /* border: 2px solid sandybrown; */
 }
-nav #last #lang #left img{
+
+nav #last #lang #left img {
     height: 100%;
     width: 100%;
 }
-nav #last #lang #right{
+
+nav #last #lang #right {
     width: 48%;
     background-color: #111;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-nav #last #lang #right h1{
+
+nav #last #lang #right h1 {
     font-size: 14px;
 }
-nav #last #lang #right i{
+
+nav #last #lang #right i {
     color: #446278;
 }
+
 nav #last #account {
-    width: 30%;
+    width: 25%;
     height: 90%;
     display: block;
     align-items: center;
-    /* border: 2px solid sandybrown; */
 
+    /* border: 2px solid sandybrown; */
+    &:hover {
+        padding: 0px 8px;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
 }
+
 nav #last #account h1 {
     font-size: 12px;
     font-weight: 300;
     /* border: 2px solid red; */
     margin: 5px 0px 2px 0px;
 }
-nav #last #account h2{
+
+nav #last #account h2 {
     font-size: 15px;
     font-weight: 600;
     /* border: 2px solid red; */
     margin-top: 0px;
 }
-nav #last #orders{
+
+nav #last #orders {
     width: 55px;
     height: 70%;
     /* border: 2px solid blanchedalmond; */
     padding: 5px;
+
+    &:hover {
+        padding: 0px 8px;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
 }
 
-nav #last #orders h1{
+nav #last #orders h1 {
     font-size: 12px;
     font-weight: 300;
-    
+
 }
-nav #last #cart{
+
+nav #last #cart {
     /* border: 2px solid blanchedalmond; */
     width: 20%;
+
+    &:hover {
+        padding: 0px 8px;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
 }
-nav #last #cart i{
+
+nav #last #cart i {
     font-size: 33px;
 }
-nav #last #cart h1{
+
+nav #last #cart h1 {
     font-size: 15px;
 }
 
-header{
+header {
     height: 40px;
     /* border: 2px solid red; */
     background-color: #114;
@@ -219,40 +288,60 @@ header{
     align-items: center;
     margin-bottom: 9px;
 }
+
 header div {
     height: 70%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 5px;
+
     /* border: 2px solid white; */
+    &:hover {
+        padding: 5px 8px;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
 }
-header div i{
+
+header div i {
     font-size: 19px;
     color: white;
     margin-left: 15px;
 }
-header div h1{
+
+header div h1 {
     font-size: 15px;
     margin: 0px 9px;
     font-weight: 300;
     color: white;
 }
-header h1{
+
+header h1 {
     font-size: 15px;
     margin: 0px 9px;
     font-weight: 300;
     color: white;
+
+    &:hover {
+        padding: 5px 6px;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
 }
-#main{
+
+#main {
     /* border: 2px solid black; */
     height: 650px;
     display: flex;
+
 }
-#left-bar{
+
+#left-bar {
     width: 33%;
 }
-#parent{
+
+#parent {
     height: 350px;
     display: flex;
     border-radius: 15px;
@@ -260,7 +349,8 @@ header h1{
     background-color: #f7f7f7;
     margin-bottom: 8px;
 }
-#left{
+
+#left {
     background-color: #f7f7f7;
     height: 100%;
     width: 25%;
@@ -268,34 +358,40 @@ header h1{
     justify-content: center;
     align-items: center;
 }
-#left img{
+
+#left img {
     height: 60%;
-    width:60%;
+    width: 60%;
 }
-#right{
+
+#right {
     padding-left: 10px;
     width: calc(100% - 25%);
     height: 100%;
     background-color: white;
 }
-#right #top-one{
+
+#right #top-one {
     display: flex;
     /* border: 2px solid rebeccapurple; */
 
 }
-#right #top-one h1{
+
+#right #top-one h1 {
     font-size: 11px;
     font-weight: 400;
     color: #446278;
 
 
 }
-#right #top-one img{
+
+#right #top-one img {
     height: 14px;
     width: 14px;
     margin-top: 6px;
 }
-#right #min-con p{
+
+#right #min-con p {
     margin-left: 5px;
     font-weight: 500;
     font-size: 18px;
@@ -303,59 +399,70 @@ header h1{
     text-align: start;
     margin: 2px;
 }
-#right #min-con p:hover{
+
+#right #min-con p:hover {
     color: rgb(211, 88, 42);
 }
-#star{
+
+#star {
     height: 5%;
     display: flex;
     /* border: 2px solid red; */
 
 }
-#star .str{
+
+#star .str {
     display: flex;
 }
-#star .str img{
+
+#star .str img {
     height: 18px;
     width: 18px;
-    
+
 }
-#star h3{
+
+#star h3 {
     font-size: 15px;
     margin: 3px;
     color: #5eafeb;
 }
-#main-two{
+
+#main-two {
     width: 34%;
     /* border: 2px solid salmon; */
 
 }
-#main-two div h1{
+
+#main-two div h1 {
     font-size: 15px;
     font-weight: 300;
     color: #446278;
     margin: 0px;
 
 }
-#main-two div h2{
+
+#main-two div h2 {
     font-size: 28px;
     line-height: 13px;
     font-weight: 500;
     margin-top: 19px;
     margin-bottom: 9px;
 }
-#main-two div h2 samp{
+
+#main-two div h2 samp {
     font-size: 12px;
     font-weight: 300;
     color: #446278;
     letter-spacing: 0px;
 }
-#main-two div h2 span{
+
+#main-two div h2 span {
     font-size: 15px;
     font-weight: 100;
 
 }
-#main-two div h4{
+
+#main-two div h4 {
     font-size: 13px;
     color: #446278;
     font-weight: 300;
@@ -363,7 +470,8 @@ header h1{
     /* border: 2px solid red; */
 
 }
-#main-two div h5{
+
+#main-two div h5 {
     color: #5eafeb;
     font-size: 17px;
     margin-top: 10px;
@@ -371,14 +479,15 @@ header h1{
     margin-bottom: 2px;
 }
 
-button{
+button {
     padding: 8px 17px;
     border-radius: 25px;
     font-weight: 500;
     background-color: #f1d82d;
     border: none;
 }
-#main-two div a{
+
+#main-two div a {
     font-size: 12px;
     color: rgb(4, 66, 68);
 }

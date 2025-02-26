@@ -1,0 +1,45 @@
+#main{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border:2px solid salmon; */
+    gap: 10px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid green; */
+    
+}
+.box>img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+
+}
+#first >img{
+    border-radius: 0px 0px 50px 0px;
+
+}
+#last >img{
+    border-radius: 0px 0px 50px 0px;
+
+}
+#first{
+    height: auto;
+    width: auto;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#last{
+    
+   
+    height: auto;
+    width: auto;
+    grid-column-start: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

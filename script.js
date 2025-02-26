@@ -349,10 +349,6 @@ a.addEventListener("mousemove" ,function(e){
 // // console.log(fd)
 // // console.log(ld)
 
-// // Write a  program to find sum of first and last digit of a number.
-// // let sum=fd+ld
-// // console.log(sum)
-
 // // Write a  program to swap first and last digits of a number.
 // let result=0
 
@@ -558,7 +554,6 @@ a.addEventListener("mousemove" ,function(e){
 //       num1=tem
 //    }
 //    return num1
-
 // while (num1!=num2) {
 //         if (num1>num2) {
 //                 num1-=num2
@@ -1174,7 +1169,7 @@ a.addEventListener("mousemove" ,function(e){
 // }
 
 //************************************************************************************* */
-// Write a  program to print Fibonacci series up to n terms.
+// Write a  program to print Fibonacci series up to n te/rms.
 // function fibonacci(n) {
         
 // arr=[1,1]

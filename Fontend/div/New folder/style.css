@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+nav{
+    position: sticky;
+    top: 40px;
+    height: 70px;
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid red; */
+    z-index: 1;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media screen and (min-width:320px) and (max-width:640px) {
+    nav{
+        height: 18vw;
+        background-color: red;
+    }
+}

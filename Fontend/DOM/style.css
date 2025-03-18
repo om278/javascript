@@ -1,0 +1,14 @@
+#counter{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+button{
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: lightblue;
+    border-radius: 10px;
+     &:hover{
+        background-color: brown;
+     }
+}
